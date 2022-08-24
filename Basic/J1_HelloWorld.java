@@ -1,6 +1,6 @@
 class J1_HelloWorld {
     public static void main(String args[]) {
-        String a = "KK World";
+        String a = "KKWorld";
         System.out.print("Hello World\n");
         System.out.println(a);
     }
