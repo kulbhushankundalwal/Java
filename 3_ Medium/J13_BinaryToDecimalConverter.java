@@ -1,5 +1,3 @@
-package Medium;
-
 import java.util.Scanner;
 
 public class J13_BinaryToDecimalConverter {
