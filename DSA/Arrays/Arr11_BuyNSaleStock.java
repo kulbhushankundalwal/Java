@@ -1,3 +1,5 @@
+// Time Complexity = O(n)
+
 package DSA.Arrays;
 
 public class Arr11_BuyNSaleStock {
