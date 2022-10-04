@@ -12,6 +12,7 @@ public class J8_StoreReverseOfInputNum {
             num/=10;
         }
         System.out.print("Reverse of the number is: " + rev);
+        System.out.println();
     }
     
 }
