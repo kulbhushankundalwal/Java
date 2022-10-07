@@ -7,23 +7,20 @@ public class J9_NumIsPrimeOrNot {
         int n = sc.nextInt();
         boolean isPrime = true;
 
-        if(n==1){
+        if (n == 1) {
             isPrime = false;
-        }
-        else{
-            for(int i=2; i<n; i++){    //for(int i=2; i<=Math.sqrt(n); i++) to make it more optamized
-                if(n%i == 0){
+        } else {
+            for (int i = 2; i < n; i++) { // for(int i=2; i<=Math.sqrt(n); i++) to make it more optamized
+                if (n % i == 0) {
                     isPrime = false;
                 }
             }
         }
-        
 
-        if(isPrime){
+        if (isPrime) {
             System.out.println("The number is prime");
-        }
-        else{
+        } else {
             System.out.println("The number is not prime");
         }
-    }   
+    }
 }

@@ -7,12 +7,12 @@ public class J8_StoreReverseOfInputNum {
         int num = sc.nextInt();
         int rev = 0;
 
-        while(num>0){
-            rev = (rev*10) + (num%10);
-            num/=10;
+        while (num > 0) {
+            rev = (rev * 10) + (num % 10);
+            num /= 10;
         }
         System.out.print("Reverse of the number is: " + rev);
         System.out.println();
     }
-    
+
 }
