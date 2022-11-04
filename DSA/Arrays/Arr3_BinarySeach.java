@@ -1,4 +1,4 @@
-// Time Complexity = O(log n) 
+// Time Complexity = O(log n)
 
 import java.util.*;
 
