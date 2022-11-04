@@ -1,6 +1,5 @@
 // Time Complexity = O(log n)
 
-package DSA.Arrays;
 import java.util.*;
 
 public class Arr3_BinarySeach {
