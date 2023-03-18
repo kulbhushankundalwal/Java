@@ -1,16 +1,14 @@
 // Time Complexity = O(n)
 
-package DSA.Arrays;
-
 public class Arr9_MaxSubArrayKadanesAlgo {
     public static int Kadanes(int arr[]){
         int max=Integer.MIN_VALUE, cs=0;
         for(int i=0; i<arr.length; i++){
             cs+=arr[i];
+            max=Math.max(cs,max);
             if(cs<0){
                 cs=0;
             }
-            max=Math.max(cs,max);
         }
         return max;
     }

@@ -16,7 +16,6 @@ public class Arr7_MaxSubArraySumBruteForce {
                 if(current>MaxSum){
                     MaxSum=current;
                 }
-
             }
         }
         System.out.println("Max Sum: " +MaxSum);
