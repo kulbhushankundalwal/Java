@@ -30,7 +30,7 @@ public class BckTr4_NQueen {
             if(isPosible(board, row, j)){
                 board[row][j]='Q';
                 NQueenSol(board, row+1);
-                board[row][j]='X';
+                board[row][j]='X'; //backtracking
             }
         }
     }
