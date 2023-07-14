@@ -1,6 +1,5 @@
 // Time Complexity = O(n^2)
 
-package DSA.BasicSorting;
 
 public class BSort1_BubbleSort {
 

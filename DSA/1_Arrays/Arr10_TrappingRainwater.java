@@ -1,7 +1,5 @@
 // Time Complexity = O(n)
 
-package DSA.Arrays;
-
 public class Arr10_TrappingRainwater {
 
     public static int TW(int height[]){

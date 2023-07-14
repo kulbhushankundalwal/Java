@@ -1,7 +1,5 @@
 // Time Complexity = O(n^2)
 
-package DSA.Arrays;
-
 public class Arr5_PrintAllPossiblePairs {
 
     public static void pairs(int arr[]){

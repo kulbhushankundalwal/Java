@@ -5,10 +5,10 @@ public class Arr9_MaxSubArrayKadanesAlgo {
         int max=Integer.MIN_VALUE, cs=0;
         for(int i=0; i<arr.length; i++){
             cs+=arr[i];
-            max=Math.max(cs,max);
             if(cs<0){
                 cs=0;
             }
+            max=Math.max(cs,max);
         }
         return max;
     }

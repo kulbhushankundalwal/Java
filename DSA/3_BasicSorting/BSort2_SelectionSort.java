@@ -1,11 +1,9 @@
 // Time Complexity = O(n^2) s
 
-package DSA.BasicSorting;
-
 public class BSort2_SelectionSort {
     
     public static void sort(int arr[]){
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<arr.length-1; i++){
             int minPos=i;
             for(int j=i+1; j<arr.length; j++){
                 if(arr[minPos]>arr[j]){  //if(arr[minPos]<arr[j]) for dec order
