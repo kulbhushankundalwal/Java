@@ -1,4 +1,3 @@
-
 public class TDArr1_SpiralMatrix {
 
     public static void printSM(int matrix[][]){
@@ -18,8 +17,8 @@ public class TDArr1_SpiralMatrix {
 
             //bottom
             for(int j=endCol-1; j>=startCol; j--){
-                if(startRow==endRow){
-                    break;
+                if(startRow==endRow){ //for last iteration in Odd Matrix, like 5x5 
+                    break;            //This will not run as top already printed the single remaining row.
                 }
                 System.out.print(matrix[endRow][j]+" ");
             }
@@ -36,6 +35,7 @@ public class TDArr1_SpiralMatrix {
             endCol--;
             endRow--;
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {

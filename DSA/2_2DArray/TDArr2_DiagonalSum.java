@@ -5,7 +5,7 @@ public class TDArr2_DiagonalSum {
         int sum=0, n=matrix.length;
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
-                if(i==j){
+                if(i==j){  //Overlap will not occur b/z of if-else
                     sum+=matrix[i][j];
                 }
                 else if(i+j==n-1){
