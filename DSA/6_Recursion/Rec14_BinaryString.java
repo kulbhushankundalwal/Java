@@ -1,3 +1,5 @@
+//Asked in PayTM
+
 public class Rec14_BinaryString {
     public static void printBString(int n, int lastPlace, String str){
         if(n==0){

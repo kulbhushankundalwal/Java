@@ -6,7 +6,7 @@ public class TDArr3_DiagonalSumOptamized {
         for(int i=0; i<n; i++){
             sum+=matrix[i][i];
             if(i!=n-i-1){
-                sum+=matrix[i][i];
+                sum+=matrix[i][n-i-1];
             }
         }
         System.out.println("Diagonal Sum is "+ sum);

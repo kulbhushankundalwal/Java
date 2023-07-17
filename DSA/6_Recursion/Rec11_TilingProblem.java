@@ -9,8 +9,10 @@ public class Rec11_TilingProblem {
             return 1;
         }
 
+        //f(n-1) - vertical choice
         int fnm1 = ways(n - 1);
 
+        //f(n-2) - horizontal choice 
         int fnm2 = ways(n - 2);
 
         return fnm1 + fnm2;

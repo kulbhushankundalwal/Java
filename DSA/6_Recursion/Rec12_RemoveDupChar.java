@@ -1,4 +1,4 @@
-// Google & Microsoft
+// Asked in Google & Microsoft
 
 public class Rec12_RemoveDupChar {
 
