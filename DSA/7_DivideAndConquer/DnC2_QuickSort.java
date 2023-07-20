@@ -16,6 +16,7 @@ public class DnC2_QuickSort {
             return;
         }
 
+        //pivot index of last element
         int pIdx = partition(arr, si, ei);
         quickSort(arr, si, pIdx-1);
         quickSort(arr, pIdx+1, ei);

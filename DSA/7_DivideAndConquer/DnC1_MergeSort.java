@@ -1,5 +1,5 @@
 // Time Complexity in all cases is O(nlogn)
-// Spcae Complexity is O(n)
+// Space Complexity is O(n)
 // Depth First
 
 public class DnC1_MergeSort {
@@ -16,7 +16,7 @@ public class DnC1_MergeSort {
             return;
         }
 
-        int mid = si + (ei - si) / 2; // or (si+ei)/2
+        int mid = si + (ei - si) / 2; // or (si+ei)/2, b/z in big array.. si+ei become very large and out of size of datatype
 
         mergeSort(arr, si, mid);
         mergeSort(arr, mid + 1, ei);

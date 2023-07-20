@@ -1,13 +1,17 @@
 public class BckTr1_BacktrackingOnArray {
 
     public static void ChangeArr(int arr[], int i, int val){
+        
+        //base case
         if(i==arr.length){
             printArr(arr);
             return;
         }
+
+        //recurssion
         arr[i]=val;
-        ChangeArr(arr, i+1, val+1);
-        arr[i]-=2;
+        ChangeArr(arr, i+1, val+1); //fnx call step
+        arr[i]-=2; //backtracking step
     }
 
     public static void printArr(int arr[]){

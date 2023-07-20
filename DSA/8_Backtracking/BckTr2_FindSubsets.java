@@ -1,5 +1,7 @@
-//Time Complexity is O(n*2^n)
+//Time Complexity is O(n*2^n) -- ek subset ko n time, then 2^n ko n*2^n
 //Space Complexity is O(n)
+
+//possible subsets are 2^n
 
 public class BckTr2_FindSubsets {
 

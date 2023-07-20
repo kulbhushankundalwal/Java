@@ -1,4 +1,5 @@
 //Time Complexity is O(n*n!)
+//No. of Permutation for n elements -> n!
 
 public class BckTr3_FindPermutation {
 

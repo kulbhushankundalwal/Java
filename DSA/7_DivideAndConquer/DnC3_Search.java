@@ -6,7 +6,8 @@ public class DnC3_Search {
         }
 
         int mid = si + (ei-si)/2;
-
+        
+        //key found
         if(arr[mid]==tar){
             return mid;
         }
