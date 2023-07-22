@@ -33,22 +33,23 @@ public class BckTr6_Sudoku {
                 return true;
             }
 
-            // recursion
+            // recursion starts
             int nextRow = row, nextCol = col + 1;
             if (col + 1 == 9) {
                 nextCol = 0;
                 nextRow = row + 1;
             }
 
-            if (sudoku[row][col] != 0) {
+            if (sudoku[row][col] != 0) { //for already set value -> run for next col
                 return sudokuSolver(sudoku, nextRow, nextCol);
             }
 
+            //for not set value
             for (int digit = 1; digit <= 9; digit++) {
                 if (isSafe(sudoku, row, col, digit)) {
                     sudoku[row][col] = digit;
                     if(sudokuSolver(sudoku, nextRow, nextCol)){
-                        return true;
+                        return true; // returns true if solution exists
                     }
                 }
                 sudoku[row][col] = 0;
