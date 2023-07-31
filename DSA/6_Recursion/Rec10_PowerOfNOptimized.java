@@ -11,14 +11,14 @@ public class Rec10_PowerOfNOptimized {
         int halfPowSq = halfPow * halfPow;
 
         // if n is odd
-        if (n / 2 != 0) {
-            halfPowSq *= n;
+        if (n % 2 != 0) {
+            halfPowSq = num * halfPowSq;
         }
 
         return halfPowSq;
     }
 
     public static void main(String[] args) {
-        System.out.println(powOp(2, 4));
+        System.out.println(powOp(2, 5));
     }
 }
