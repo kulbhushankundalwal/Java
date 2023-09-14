@@ -10,7 +10,7 @@ public class J9_NumIsPrimeOrNot {
         if (n == 1) {
             isPrime = false;
         } else {
-            for (int i = 2; i < n; i++) { // for(int i=2; i<=Math.sqrt(n); i++) to make it more optamized
+            for (int i = 2; i < n; i++) { // for(int i=2; i<=Math.sqrt(n); i++) to make it more optimized
                 if (n % i == 0) {
                     isPrime = false;
                 }
